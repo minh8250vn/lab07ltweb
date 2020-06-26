@@ -14,7 +14,7 @@ namespace QuanLySach.Controllers
        {
             new Sach { Id = 1, Title = "Tôi thấy hoa vàng trên cỏ xanh", AuthorName ="Nguyễn Nhật Ánh", Price = 1, Content="Truyện kể về Tuổi thơ..." },
 
-            new Sach { Id = 2, Title = "Pro ASP.NET MVC5", AuthorName = "Adam Freeman", Content="The ASP.NET MVC 5 Framework is the latest evolution of Microsoft’s ASP.NET web platform.",  Price = 3.75M }, 
+            new Sach { Id = 2, Title = "Pro ASP NET MVC5", AuthorName = "Adam Freeman", Content="The ASP.NET MVC 5 Framework is the latest evolution of Microsoft’s ASP.NET web platform.",  Price = 3.75M }, 
        };
 
         public IEnumerable<Sach> GetAll()
