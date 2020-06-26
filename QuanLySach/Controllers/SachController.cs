@@ -24,7 +24,7 @@ namespace QuanLySach.Controllers
 
         public IHttpActionResult GetSach(string id)
         {
-            var sach = sachs.FirstOrDefault((p) => p.AuthorName == id);
+            var sach = sachs.FirstOrDefault((p) => p.Title.Contains(id));
             if (sach == null)
             {
                 return NotFound();
